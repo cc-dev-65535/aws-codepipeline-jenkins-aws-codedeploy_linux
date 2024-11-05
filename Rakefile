@@ -5,9 +5,6 @@ require 'rubygems'
 require 'rake'
 require 'haml'
 
-def to_hash()
-end
-
 task default: :compile
 
 task :compile do
